@@ -599,6 +599,7 @@ public class MutableHashTable<BT, PT> implements MemorySegmentSource {
 	public PT getCurrentProbeRecord() {
 		return this.probeIterator.getCurrent();
 	}
+
 	
 	public HashBucketIterator<BT, PT> getBuildSideIterator() {
 		return this.bucketIterator;
